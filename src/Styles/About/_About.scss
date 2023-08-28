@@ -1,0 +1,25 @@
+.about--Container {
+  position: relative;
+  display: block;
+  // background-color: red;
+  .about--article{
+    display: block;
+    // overflow: auto;
+    position: relative;
+    h1 {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      text-transform: capitalize;
+      letter-spacing: normal;
+    }
+    p {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 300;
+      text-align: start;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+    }
+  }
+}

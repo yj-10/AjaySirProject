@@ -6,20 +6,20 @@ function Footer() {
     <>
       <footer className="footer bg-light text-center">
         <div className="footer-link">
-            <ul>
-                <li>
-                    <Link  to={'/'}>Home</Link>
-                </li>
-                <li>
-                    <Link to={'/Ceo-Coaching'}>Ceo Coaching</Link>
-                </li>
-                <li>
-                    <Link to={'/About'}>About</Link>
-                </li>
-                <li>
-                    <Link  to={'/'}></Link>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <Link to={"/"}>Home</Link>
+            </li>
+            <li>
+              <Link to={"/Ceo-Coaching"}>Ceo Coaching</Link>
+            </li>
+            <li>
+              <Link to={"/About"}>About</Link>
+            </li>
+            <li>
+              <Link to={"/"}></Link>
+            </li>
+          </ul>
         </div>
         <div className="footer-copyright">
           <p>
