@@ -1,0 +1,17 @@
+.footer {
+  display: block;
+  overflow: hidden;
+  &-link {
+    position: relative;
+
+    ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 20px 10px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}

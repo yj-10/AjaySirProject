@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../Components/Layout'
-function Services() {
+function Coaching() {
   return (
     <Layout>
-     Service 
+     Choching 
     </Layout>
   )
 }
 
-export default Services
+export default Coaching
