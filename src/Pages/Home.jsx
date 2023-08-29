@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../Components/Layout";
+import { FaAngleUp } from "react-icons/fa";
 import {
   Button,
   Card,
@@ -15,6 +16,22 @@ import img from "../assest/img/man-01.png";
 import AImg from "../assest/img/About-img.png";
 import { Link } from "react-router-dom";
 function Home() {
+  const [showTopBtn, setShowTopBtn] = useState(false);
+  useEffect(() => {
+      window.addEventListener("scroll", () => {
+          if (window.scrollY > 400) {
+              setShowTopBtn(true);
+          } else {
+              setShowTopBtn(false);
+          }
+      });
+  }, []);
+  const goToTop = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+      });
+  };
   return (
     <Layout>
       {/* banner  */}
@@ -560,7 +577,17 @@ function Home() {
         </Container>
       </div>
       {/* Work Together */}
+      <div className="top-to-btm">
+            {" "}
+            {showTopBtn && (
+                <FaAngleUp
+                    className="icon-position icon-style"
+                    onClick={goToTop}
+                />
+            )}{" "}
+        </div>
     </Layout>
+    
   );
 }
 

@@ -95,10 +95,10 @@ function Footer() {
             </Col>
           </Row>
 
-          <hr />
+          <hr className="text-white" />
 
           <div className="footer-copyright">
-            <p>
+            <p className="text-white">
               @ {new Date().getFullYear()} Ajaysukla.com • All Rights Reserved
             </p>
           </div>

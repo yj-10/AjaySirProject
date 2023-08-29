@@ -36,6 +36,7 @@ function Layout({ children }) {
                     activeClassName="active"
                     to="/"
                     tag={RRNavLink}
+                    
                   >
                     Home
                   </NavLink>
@@ -52,7 +53,7 @@ function Layout({ children }) {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    className=""
+                  className=""
                     activeClassName="active"
                     to="/Ceo-Coaching"
                     tag={RRNavLink}
