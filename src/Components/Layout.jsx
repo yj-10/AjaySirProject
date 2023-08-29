@@ -21,7 +21,7 @@ function Layout({ children }) {
   return (
     <>
       <div>
-        <Navbar color="light" light container expand="md">
+        <Navbar color=""  light container expand="md">
             <NavbarBrand href="/">Logo</NavbarBrand>
             <NavbarToggler
               onClick={() => {

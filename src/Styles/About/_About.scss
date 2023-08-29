@@ -1,7 +1,13 @@
+
+:root{
+  --border-color:#ff4a57;
+  --bg-color:#23263a !important;
+  --bg-Color-one:#23263a;
+}
 .about--Container {
   position: relative;
   display: block;
-  // background-color: red;
+  // background-color: var(--bg-color);
   .about--article{
     display: block;
     // overflow: auto;
